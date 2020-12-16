@@ -9,7 +9,7 @@
         public static void Main(string[] args)
         {
             var type = new Type("Hugo", 123);
-            var item = type.LoadFromCache();
+            var cachedType = type.LoadFromCache();
         }
     }
 
