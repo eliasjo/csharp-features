@@ -1,6 +1,8 @@
-﻿namespace csharp_nine
+﻿using System;
+
+namespace csharp_nine
 {
-    public record Type(string Name, int Value) : Extender(false);
+    public record Person(string FirstName, string LastName) : Extender(false);
 
     public record Extender(bool FromCache);
 
@@ -8,8 +10,11 @@
     {
         public static void Main(string[] args)
         {
-            var type = new Type("Hugo", 123);
+            var type = new Person("Max", "Mustermann");
             var cachedType = type.LoadFromCache();
+            
+            Console.WriteLine($"FirstName: {cachedType.FirstName}\nLastname: {cachedType.LastName}");
+            Console.ReadLine();
         }
     }
 
