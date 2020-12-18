@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30621.155
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecordTypes", "csharp-nine\RecordTypes.csproj", "{A585F2BF-6B08-416E-8B88-22BA236B1B07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecordTypes_Extender", "csharp-nine\RecordTypes_Extender.csproj", "{A585F2BF-6B08-416E-8B88-22BA236B1B07}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCore_RecordType_Api", "EFCore_RecordTypes_Api\EFCore_RecordType_Api.csproj", "{2A8A1B48-CD29-40DF-B97E-7EC2F86A74C9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{A585F2BF-6B08-416E-8B88-22BA236B1B07}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A585F2BF-6B08-416E-8B88-22BA236B1B07}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A585F2BF-6B08-416E-8B88-22BA236B1B07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A8A1B48-CD29-40DF-B97E-7EC2F86A74C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A8A1B48-CD29-40DF-B97E-7EC2F86A74C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A8A1B48-CD29-40DF-B97E-7EC2F86A74C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A8A1B48-CD29-40DF-B97E-7EC2F86A74C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
